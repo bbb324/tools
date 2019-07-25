@@ -1,7 +1,7 @@
-class tools {
-    log(msg) {
-        return console.log(msg)
-    }
+function log(msg) {
+    console.log(msg)
 }
 
-export default tools;
+export {
+    log
+}
