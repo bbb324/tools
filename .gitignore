@@ -1,0 +1,16 @@
+node_modules/
+tmp/
+temp/
+lib/
+.build/
+.idea/
+*.log
+*.iml
+.DS_Store
+test/coverage/
+
+# ignore lib dir
+/lib/
+
+
+.justconf

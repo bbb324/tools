@@ -1,11 +1,14 @@
 {
   "name": "tools",
   "version": "1.0.0",
-  "description": "",
+  "description": "tools set",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "files": [
+    "src/"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/bbb324/tools.git"
