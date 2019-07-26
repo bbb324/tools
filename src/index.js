@@ -1,4 +1,4 @@
-function log(msg) {
+function logs(msg) {
     console.log(msg)
 }
 
@@ -26,7 +26,7 @@ function debounce(fn, delay) {
 }
 
 export {
-    log,
+    logs,
     throttle,
     debounce
 }
