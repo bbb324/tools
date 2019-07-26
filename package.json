@@ -1,6 +1,6 @@
 {
   "name": "bbb324-tools",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "tools set",
   "main": "index.js",
   "scripts": {
