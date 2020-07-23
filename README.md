@@ -7,7 +7,7 @@ npm i bbb324-tools --save
 #### 引入说明
 工具组目前包含以下几个方法，throttle, debounce, slice 引入方式为
 ```
-import { throttle, debounce, slice } from 'bbb324-tools';
+import { throttle, debounce, slice, getUrlParams } from 'bbb324-tools';
 ```
 
 #### 使用说明
@@ -27,6 +27,11 @@ slice 函数说明
 a = slice(['a','b','c','d'], ['b'])
 
 // a = ['a','c','d']
+
+getUrlParams 函数说明
+
+let a = 'https://xiejun325.yst.htm?isReadOnly=yes';
+getUrlParams().isReadOnly === 'yes' // return true;
     
 ```
  
